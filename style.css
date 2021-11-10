@@ -1,0 +1,192 @@
+/* === Universal Styles === */
+
+html {
+    font-size: 16px;
+}
+
+a { 
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+}
+
+
+
+/* === Header === */
+
+header {
+    padding: 0.5rem 1rem;
+    background-color: aquamarine;
+}
+
+header .desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desktop input {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.desktop ul li {
+    display: inline;
+    padding-right: 1.5rem;
+}
+
+.desktop ul li:last-child {
+    padding-right: 0;
+}
+
+header .mobile {
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+    header .desktop {
+        display: none;
+    }
+
+    header .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    header .mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
+    /* .logo {
+        justify-content: center;
+    }
+
+    .logo span {
+        display: none;
+    } */
+}
+
+/* ===== main ===== */
+
+main h1 {
+    text-align: center;
+    background-color: bisque;
+    margin: 6rem 0 6rem 0;
+    font-size: 4rem;
+}
+
+main hr {
+    width: 20%;    
+    margin-bottom: 4rem;
+}
+ 
+
+
+
+/* ===== shoes-image ===== */
+
+.shoes-images-container h2 {
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 1.5rem;
+}
+.shoes-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-thumbnail{
+    /* border: 1px solid gray;  */
+    padding: 1.5rem;
+}
+
+.shop-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    background-color: violet;
+}
+
+.shoes-images-container a {
+    background-color:aquamarine;
+    color: black;
+    font-size: 2rem;
+    padding: 0.5rem 2rem;   
+}
+
+.rectangle-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+} 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+   
+    border: 1px solid gray;
+}
+
+.item-box {
+    border: 1px solid gray;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.split {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid rgb(192, 192, 192);
+    padding: 2rem 0 2rem 0;
+}
+
+.text {
+    margin: 0;
+}
+
+.our-shop {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.title {
+    font-size: 2.5rem;    
+}
+
+
+.table-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-column {
+    margin-left: 3rem;
+}
+
+table th, td {
+    padding-right: 5rem;
+}
+
+footer {
+    margin-left: 3rem;
+}
