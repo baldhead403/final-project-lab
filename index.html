@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+
+    <!-- <nav>
             <div class="desktop">
                 <div>
                     <a class="logo" href="">
@@ -43,6 +43,43 @@
                                 alt=""></a></li>
                 </ul>
             </div>
+        </nav> -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="logo" href="">
+                    <img src="https://img.icons8.com/material-rounded/48/000000/mastercard-logo.png"
+                        alt="logo two circles" /><span><strong>Famous Footwear</strong></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Your Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -53,14 +90,11 @@
         <hr>
         <section class="shoes-images-container">
             <div class="shoes-images">
-                <div class="img-thumbnail mx-auto"><img src="./resources/images/shoes-g9d5ab7df2_640.png" width="300px"
-                        alt="">
+                <div class="img-thumbnail mx-auto"><img src="./resources/images/converse-640.png" width="300px" alt="">
                 </div>
-                <div class="img-thumbnail mx-auto"><img src="./resources/images/shoes-g9d5ab7df2_640.png" width="300px"
-                        alt="">
+                <div class="img-thumbnail mx-auto"><img src="./resources/images/converse-640.png" width="300px" alt="">
                 </div>
-                <div class="img-thumbnail mx-auto"><img src="./resources/images/shoes-g9d5ab7df2_640.png" width="300px"
-                        alt="">
+                <div class="img-thumbnail mx-auto"><img src="./resources/images/converse-640.png" width="300px" alt="">
                 </div>
             </div>
             <div class="shop-button">
@@ -75,13 +109,13 @@
         <div>
             <div class="rectangle-box">
                 <div class="item-box">
-                    <img src="./resources/images/shoes-g9d5ab7df2_640.png" width="400px" alt="">
+                    <img src="./resources/images/nike-red-running-shoes.jpg" width="400px" alt="">
                     <span>PRODUCT NAME</span>
                     <p>$300</p>
                 </div>
 
                 <div class="item-box">
-                    <img src="./resources/images/shoes-g9d5ab7df2_640.png" width="400px" alt="">
+                    <img src="./resources/images/black-ankle-boots.jpg" width="400px" alt="">
                     <span>PRODUCT NAME</span>
                     <p>$300</p>
                 </div>
@@ -95,16 +129,25 @@
                 <p class="text">Subscribe our newsletter today.</p>
                 <p class="text">You won't miss any sales promotion and new trending shoes.</p>
             </div>
-            <div>
+            <!-- <div>
                 <button type="submit" class="btn btn-primary">Subscribe</button>
-            </div>
+            </div> -->
 
             <div>
                 <div class="row mb-3">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-10">
+                    <!-- <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label> -->
+                    <div class="input-group mb-3 input-group-lg">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <input type="text" id="inputEmail3" class="form-control" placeholder="Recipient's email"
+                            aria-label="Recipient's email" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                    <!-- <div class="col-sm-10">
                         <input type="email" class="form-control" id="inputEmail3">
                     </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -114,32 +157,32 @@
     <section class="shoes-images-container">
         <div class="rectangle-box">
             <div class="item-box">
-                <img src="./resources/images/shoes-g9d5ab7df2_640.png" width="400px" alt="">
-                <span>PRODUCT NAME</span>
-                <p>$300</p>
+                <img src="./resources/images/converse-640.png" width="400px" alt="">
+                <span>Converse High Top</span>
+                <p>$180</p>
             </div>
 
             <div class="items-boxs">
                 <div class="item-box">
-                    <img src="./resources/images/shoes-g9d5ab7df2_640.png" width="350px" alt="">
+                    <img src="./resources/images/nike-red-black-sneakers.jpg" width="350px" alt="">
                     <span>PRODUCT NAME</span>
                     <p>$300</p>
                 </div>
                 <div class="item-box">
-                    <img src="./resources/images/shoes-g9d5ab7df2_640.png" width="350px" alt="">
+                    <img src="./resources/images/red-basketball-shoes.jpg" width="350px" alt="">
                     <span>PRODUCT NAME</span>
-                    <p>$300</p>
+                    <p>$200</p>
                 </div>
             </div>
 
             <div class="items-boxs">
                 <div class="item-box">
-                    <img src="./resources/images/shoes-g9d5ab7df2_640.png" width="350px" alt="">
+                    <img src="./resources/images/converse-640.png" width="350px" alt="">
                     <span>PRODUCT NAME</span>
                     <p>$300</p>
                 </div>
                 <div class="item-box">
-                    <img src="./resources/images/shoes-g9d5ab7df2_640.png" width="350px" alt="">
+                    <img src="./resources/images/converse-640.png" width="350px" alt="">
                     <span>PRODUCT NAME</span>
                     <p>$300</p>
                 </div>
@@ -204,38 +247,6 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -245,6 +256,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="js/gearController.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

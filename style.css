@@ -2,6 +2,7 @@
 
 html {
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 a { 
@@ -32,10 +33,11 @@ header .desktop {
     justify-content: space-between;
 }
 
-header .logo {
+.logo {
     display: inline-flex;
     align-items: center;
     justify-content: space-around;
+    padding-right: 0.625rem;
 }
 
 .desktop input {
@@ -84,7 +86,7 @@ header .mobile {
 
 main h1 {
     text-align: center;
-    background-color: bisque;
+    /* background-color: bisque; */
     margin: 6rem 0 6rem 0;
     font-size: 4rem;
 }
@@ -94,14 +96,20 @@ main hr {
     margin-bottom: 4rem;
 }
  
+.row {
+    text-align: center;
+}
 
+label {
+    font-size: 16px;
+}
 
 
 /* ===== shoes-image ===== */
 
 .shoes-images-container h2 {
     text-align: center;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     padding: 1.5rem;
 }
 .shoes-images {
@@ -121,7 +129,7 @@ main hr {
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 5rem;
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 .shoes-images-container a {
